@@ -1,0 +1,124 @@
+/* CSS for index.html*/
+body{
+  text-align: center;
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.15em;
+  bacground-color: #C9D1D3;
+}
+
+h1{
+  font-family: 'Tangerine', cursive;
+  font-weight: light;
+  font-size: 6.25rem;
+  margin: 120px auto 0 auto;
+  color: #465881;
+}
+
+h2{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 2.5rem;
+  color: #465881;
+
+}
+
+h3{
+  color: #00909E;
+}
+
+p{
+  color: #465881;
+}
+
+hr{
+  width: 4%;
+  border-width: 7px;
+  border-style: none;
+  border-bottom-style: dotted;
+  border-color: #465881;
+  margin: 100px auto;
+}
+
+.top-container{
+  background-color: #1B2A49;
+  padding-top: 30px;
+  position: relative;
+}
+
+.bottom-container{
+  background-color: #1B2A49;
+  color: #465881;
+  height: 100px;
+  padding-top: 20px;
+  margin-top: 40px;
+}
+
+.cloud1{
+  position: absolute;
+  right: 330px;
+  top: 50px;
+}
+
+.cloud2{
+  position: absolute;
+  left: 330px;
+}
+
+.mypic{
+  width: 300px;
+  height: 300px;
+  background-color: #27323A;
+  border-radius: 50%;
+}
+
+.profile-des{
+  line-height: 2;
+  font-size: 1.50rem;
+}
+
+.myskills{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.billiards{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-button {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 200px;
+   border-radius: 30px;
+   height: 0;
+   line-height: 0;
+   color: #C9D1D3;
+   font-family: 'Dosis', sans-serif;
+   width: 80px;
+   font-size: .80rem;
+   font-weight: 100;
+   padding: 14px;
+   margin-top: 20px;
+   background-color: #1B2A49;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.footer-link{
+  color: #465881;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-left: 30px;
+}
